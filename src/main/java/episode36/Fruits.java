@@ -1,6 +1,6 @@
-package episode34;
+package episode36;
 
-public class Interface {
+public class Fruits {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
