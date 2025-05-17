@@ -13,7 +13,6 @@ public class LearnWebTable {
 		
 		 System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
 		 ChromeDriver driver = new ChromeDriver();
-		 driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		 driver.get("https://letcode.in/table");
 		 WebElement table = driver.findElementById("simpletable");
 		 List<WebElement> header =  table.findElements(By.tagName("th"));

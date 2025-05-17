@@ -9,7 +9,7 @@ public class LearnStatic {
 	{
 		x++;
 		y++;
-		System.out.println("non static ==> " +x+ " non static ==> " +y );
+		System.out.println("non static ==> " +x+ " static ==> " +y );
 	}
 
 	public static void main(String[] args) 

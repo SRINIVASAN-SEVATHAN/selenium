@@ -22,7 +22,7 @@ public class CapturedScreenShot {
 		
 // Screenshot of particular element(button)
 		
-	WebElement ele = driver.findElementById("home");
+	WebElement ele = driver.findElement("home");
 	File elesrc = ele.getScreenshotAs(OutputType.FILE);
 	File  eledst = new File("./snaps/img2.png");
 	FileHandler.copy(elesrc, eledst);
